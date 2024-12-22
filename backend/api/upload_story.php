@@ -12,9 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $servername = "localhost";
-$username = "onpointeducation";
-$password = "Design@2025";
-$dbname = "onpointeducation_php122";
+$username = "user";
+$password = "password";
+$dbname = "dbname";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
