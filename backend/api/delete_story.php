@@ -5,9 +5,10 @@ $data = json_decode(file_get_contents('php://input'), true);
 $imageId = $data['id'];
 
 $servername = "localhost";
-$username = "onpointeducation";
-$password = "Design@2025";
-$dbname = "onpointeducation_php122";// Replace with your database name
+$username = "user";
+$password = "password";
+$dbname = "dbname";
+// Replace with your database name
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
