@@ -9,9 +9,9 @@ header("Access-Control-Allow-Headers: Content-Type"); // Allowed headers
 
 // Define database constants (replace with your actual database details)
 define('DB_HOST', 'localhost');
-define('DB_USER', 'onpointeducation'); // Replace with your DB username
-define('DB_PASSWORD', 'Design@2025'); // Replace with your DB password
-define('DB_NAME', 'onpointeducation_php122'); // Replace with your DB name
+define('DB_USER', 'user'); // Replace with your DB username
+define('DB_PASSWORD', 'password'); // Replace with your DB password
+define('DB_NAME', 'dbname'); // Replace with your DB name
 
 // Establish database connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
